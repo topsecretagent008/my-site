@@ -76,11 +76,11 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        My goal is to exceed my customer’s expectations in the form of value, quality,
+        My goal is to exceed my customer&apos;s expectations in the form of value, quality,
         and complete customer satisfaction. <br />
-        I carefully analyze my customer's needs and objectives
+        I carefully analyze my customer&apos;s needs and objectives
         and deliver them a worthy solution. Also, I <span className="text-red-600">LOVE</span>
-         to create great designs with you.
+        to create great designs with you.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
@@ -97,11 +97,6 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="mt-12"
       >
-        {/* <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
-          <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
-            Check out my resume!
-          </button>
-        </a> */}
       </motion.div>
     </div>
   );
