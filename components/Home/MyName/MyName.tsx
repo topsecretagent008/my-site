@@ -76,9 +76,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        My goal is to exceed my customer&apos;s expectations in the form of value, quality,
+        My goal is to exceed my customer is expectations in the form of value, quality,
         and complete customer satisfaction. <br />
-        I carefully analyze my customer&apos;s needs and objectives
+        I carefully analyze my customer is needs and objectives
         and deliver them a worthy solution. Also, I <span className="text-red-600">LOVE</span>
         to create great designs with you.
       </motion.h3>
