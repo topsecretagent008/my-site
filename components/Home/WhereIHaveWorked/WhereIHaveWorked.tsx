@@ -14,21 +14,17 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "Totle":
+      case "SEYA":
         return <Totle />;
-      case "ItechArt":
+      case "ROBOTS":
         return <ItechArt />;
-      case "TrustToken":
+      case "DEVFORTRESS":
         return <TrustToken />;
-      case "Advanced Agro Management":
-        return <AdvancedAgroManagement />;
-      case "Fantasia":
-        return <Fantasia />;
-      case "StoryMkrs":
+      case "TWG":
         return <StoryMkrs />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("Totle");
+  const [DescriptionJob, setDescriptionJob] = React.useState("SEYA");
   return (
     <div
       data-aos="fade-up"
@@ -84,13 +80,12 @@ const CompaniesBar = (props) => {
         className={`flex-none sm:text-sm text-xs text-center md:text-left  hover:text-AAsecondary
              hover:bg-ResumeButtonHover rounded  font-mono  
              py-3 md:pl-6 md:px-4 md:w-44 w-32 duration-500
-             ${
-               companyNameBackgroundColorGreen[
-                 props.ButtonOrderOfcompanyNameBackgroundColorGreen
-               ]
-                 ? "bg-ResumeButtonHover text-AAsecondary"
-                 : "text-gray-500"
-             }`}
+             ${companyNameBackgroundColorGreen[
+            props.ButtonOrderOfcompanyNameBackgroundColorGreen
+          ]
+            ? "bg-ResumeButtonHover text-AAsecondary"
+            : "text-gray-500"
+          }`}
       >
         {props.CompanyName}
       </button>
@@ -121,37 +116,37 @@ const CompaniesBar = (props) => {
         <div className="flex flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Totle"
+            CompanyName="SEYA GROUP"
             BarPosition={34}
             BarAvobePosition={1}
-            DescriptionJob="Totle"
+            DescriptionJob="SEYA"
             CompanyNameBackgroundColorGreen={[true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="ITechArt Group"
+            CompanyName="ROBOTS & PENCILS"
             BarPosition={78}
             BarAvobePosition={129}
-            DescriptionJob="ItechArt"
+            DescriptionJob="ROBOTS"
             CompanyNameBackgroundColorGreen={[false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="TrustToken"
+            CompanyName="DEVFORTRESS"
             BarPosition={122}
             BarAvobePosition={257}
-            DescriptionJob="TrustToken"
+            DescriptionJob="DEVFORTRESS"
             CompanyNameBackgroundColorGreen={[false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="StoryMKRS"
+            CompanyName="TWG"
             BarPosition={164}
             BarAvobePosition={385}
-            DescriptionJob="StoryMkrs"
+            DescriptionJob="TWG"
             CompanyNameBackgroundColorGreen={[false, false, false, true, false]}
             setDescriptionJob={props.setDescriptionJob}
           />

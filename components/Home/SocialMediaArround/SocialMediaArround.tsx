@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import GithubIcon from "../../Icons/GithubIcon";
 import LinkedinIcon from "../../Icons/LinkedinIcon";
-import InstagramIcon from "../../Icons/InstagramIcon";
-import YoutubeIcon from "../../Icons/YoutubeIcon";
 import DiscordIcon from "../../Icons/DiscordIcon";
 import TelegramIcon from "../../Icons/TelegramIcon";
 const IconClickableWithAnimation = (props) => {
@@ -49,13 +47,11 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Linkedin icon */}
             <IconClickableWithAnimation Icon={LinkedinIcon} href={""} />
             {/* Instagram Icon */}
-            <IconClickableWithAnimation Icon={InstagramIcon} href={""} />
-            {/* Youtube Icon */}
             <IconClickableWithAnimation
               Icon={DiscordIcon}
               href={"https://discordapp.com/users/1012022014774616094"}
             />
-            <IconClickableWithAnimation Icon={TelegramIcon} href={""} />
+            <IconClickableWithAnimation Icon={TelegramIcon} href={"https://t.me/techwolf3389"} />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>
@@ -74,7 +70,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         }}
         className="z-10 fixed bottom-0 right-0 hidden lg:flex flex-row items-center justify-between"
       >
-        <div className="flex flex-col space-y-24 justify-center items-center">
+        <div className="flex flex-col space-y-28 justify-center items-center">
           {/* Open Email on click */}
           <motion.div
             initial={{ rotate: 90 }}
