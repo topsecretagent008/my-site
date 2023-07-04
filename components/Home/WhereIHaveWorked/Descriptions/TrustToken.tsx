@@ -5,19 +5,35 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TrustToken() {
   const tasks = [
     {
-      text: "TrustToken frees money to move to wherever it creates the most value - instantly. Borrow & Lend. Fully transparent uncollateralized lending, powered by TRU",
+      text: "Technologies: Node.js, Grunt, Bootstrap, Optimization, JavaScript, jQuery, API Development, CSS, HTML5, React, Sass",
       keywords: ["Apache POI"],
     },
     {
-      text: "Have developed Ethereum Energy contract and Frontend-with react, web3, ether.js",
+      text: "Supported and worked on several ad campaigns, including Apple to integrate into style.com.",
       keywords: ["scripts"],
     },
     {
-      text: "Developed Smart Contract with solidity and Defi",
+      text: "- Contributed to the redesign and redevelopment team for style.com. Specifically developed the CMS for the editors, including the wireframes and design.",
       keywords: ["non-developers"],
     },
     {
-      text: "Introduce the embedded signature wallet on existing system",
+      text: "On the redesign of style.com, I worked with a team of Java developers to ensure the CMS was connected to the custom API. ",
+      keywords: ["non-developers"],
+    },
+    {
+      text: "Designed the CMS with Bootstrap and developed custom functionality in JavaScript and jQuery.",
+      keywords: ["non-developers"],
+    },
+    {
+      text: "Before working on the redesign team, I worked to maintain and add small features such as custom sliders to the original style.com custom WordPress theme",
+      keywords: ["non-developers"],
+    },
+    {
+      text: " Researched and integrated new technologies such as React to the new site. ",
+      keywords: ["non-developers"],
+    },
+    {
+      text: "Optimized speed of the site.",
       keywords: ["non-developers"],
     },
   ];

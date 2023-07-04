@@ -4,27 +4,31 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function ItechArt() {
   const tasks = [
     {
-      text: "ITechArt is a top-tier, one-stop custom software development company with a talent pool of 3500֡ experienced engineers. It help VC-backed startups and fast-growing tech companies build successful, scalable products that users love",
+      text: "Technologies: JavaScript, jQuery, API Development, Web Hosting, CSS3, HTML5, Search Engine Optimization (SEO), WordPress, Sass, Gulp, Node.js",
       keywords: ["About Company"],
     },
     {
-      text: "Implemented a taxonomy types for risk controls",
+      text: "Built the company's time tracking system in which 100+ employees would use on a biweekly basis using Google API.",
       keywords: ["VivaTech2022 event"],
     },
     {
-      text: "Improved access control system",
+      text: "Designed and developed the company's intranet system, which incorporated the original time tracker I built. This was built with Node.js, React, Google, MongoDB, and more",
       keywords: ["blockchain & Smart Contracts"],
     },
     {
-      text: "Developed features related with risks and risk controls",
+      text: "Led and put together a team of developers to work on the company's intranet system.",
       keywords: ["blockchain & Smart Contracts"],
     },
     {
-      text: "Data migrations, data model tranformations",
+      text: "Collaborated with several teams to design and develop tools to help them.",
       keywords: ["blockchain & Smart Contracts"],
     },
     {
-      text: "Cover logic changes and migrations with tests",
+      text: "- Designed custom email templates.",
+      keywords: ["blockchain & Smart Contracts"],
+    },
+    {
+      text: "- Created a shopify custom template for their e-commerce business for selling their custom apparel",
       keywords: ["blockchain & Smart Contracts"],
     },
   ];

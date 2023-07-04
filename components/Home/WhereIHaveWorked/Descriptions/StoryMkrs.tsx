@@ -5,23 +5,31 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function StoryMkrs() {
   const tasks = [
     {
-      text: "Developed CMS and E-commerce platforms with PHP and JavaScript.",
+      text: "Technologies: CSS3, C#, Sass, jQuery, API Development, JavaScript, HTML5, Adobe CS6,Mercurial, .NET, Micro Service, AWS, PostgreSQL",
       keywords: ["ReactJS", "TailwindCSS v1", "TypeScript"],
     },
     {
-      text: "Developed an ecommerce analytics application using React, Laravel, and MySQL.",
+      text: "Collaborated with UI/UX designers, designers, and a team of Java back-end developers.",
       keywords: ["Next.js"],
     },
     {
-      text: "Had some experience in chrome extension development.",
+      text: "Followed an iterative and incremental Agile software development framework for managing software projects and applications.",
       keywords: [],
     },
     {
-      text: "Facilitated maintenance and development of different projects.",
+      text: "Organized and helped maintain SASS files.",
       keywords: [],
     },
     {
-      text: "Participated in cross-functional team discussions to formulate effective development and maintenance strategies throughout all systems",
+      text: "Maintained and added new features to Yext's custom client platform that allowed company information to stay consistent on all social media platforms.",
+      keywords: [],
+    },
+    {
+      text: " Created a custom Yext application for Sears that used Google API.",
+      keywords: [],
+    },
+    {
+      text: "Rotated every two weeks to a new team to work as the sole fullstack developer, since I was one of two of the fullstack developers on the engineering team. ",
       keywords: [],
     },
   ];

@@ -5,19 +5,31 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Totle() {
   const tasks = [
     {
-      text: "Totle aggregates decentralized exchanges and synthetic asset providers into a suite of tools that makes it easy to access deep liquidity for DeFi assets at the best price. products using Google Assistant, Alexa, Siri and Cortana.",
+      text: "Technologies: Sketch, ACF, Webpack, Gulp, HTML, Shopify, Node.js, SCSS, CSS, WordPress, PHP, JavaScript",
       keywords: ["About Company"],
     },
     {
-      text: "Developed decentralized token with Solidity, Web3 and Front-End based on React , Typescript",
+      text: "Worked on their main client Cosmos clinic",
       keywords: ["Next.js/React", "AWS", "Vercel"],
     },
     {
-      text: "Developed decentralized token with Solidity, Web3 and Front-End based on React , Typescript",
+      text: "Worked to maintain cosmos clinic WordPress custom theme.",
       keywords: [],
     },
     {
-      text: "Introduced COMP token",
+      text: "Implemented multiple WordPress templates.",
+      keywords: [],
+    },
+    {
+      text: "Maintained Shopify sites and implemented custom features for a couple of clients.",
+      keywords: [],
+    },
+    {
+      text: "Designed multiple templates for clients using Sketch.",
+      keywords: [],
+    },
+    {
+      text: "- Worked with multiple WordPress themes to debug issues, implement new features and develop new templates.",
       keywords: [],
     },
   ];

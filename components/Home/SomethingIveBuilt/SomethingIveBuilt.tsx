@@ -260,15 +260,15 @@ export default function SomethingIveBuilt() {
                 </span>
                 <Link href={"https://yesplz.ai/"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                  Yesplz
+                    Yesplz
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                Yesplz is a silicon valley startup that provides an e-commerce recommendation engine for fashion retail. 
-                I helped to design, build, and deploy the minimum viable product, as well 
-                as most of the marketing materials and the tailor-made website.
+                  Yesplz is a silicon valley startup that provides an e-commerce recommendation engine for fashion retail.
+                  I helped to design, build, and deploy the minimum viable product, as well
+                  as most of the marketing materials and the tailor-made website.
                 </p>
               </div>
               <ul
@@ -346,12 +346,6 @@ export default function SomethingIveBuilt() {
                 />
               </div>
             </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
-              <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">
-                In initiation...
-              </span>
-            </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
@@ -372,7 +366,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                This is a platform for Tracking all the leading metaverse opportunities.
+                  This is a platform for Tracking all the leading metaverse opportunities.
                 </p>
               </div>
               <ul
