@@ -40,12 +40,12 @@ export default function StoryMkrs() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Fullstack developer{" "}
+            Full-stack developer{" "}
             <span className="text-AAsecondary">@ TWG</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Nov 2012 - July 2013
+            Aug 2015 - Jan 2018
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

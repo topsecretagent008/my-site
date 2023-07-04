@@ -45,7 +45,7 @@ export default function Totle() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Feb 2019 - Nov 2022
+            Sep 2022 - May 2023
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

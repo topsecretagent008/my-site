@@ -48,7 +48,7 @@ export default function TrustToken() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Sept 2013 - May 2015
+            Mar 2018 - Dec 2019
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

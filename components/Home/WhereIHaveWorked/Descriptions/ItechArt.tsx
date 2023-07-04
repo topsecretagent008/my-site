@@ -42,7 +42,7 @@ export default function ItechArt() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            July 2016 - Dec 2018
+            Jan 2020 - Aug 2022
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
